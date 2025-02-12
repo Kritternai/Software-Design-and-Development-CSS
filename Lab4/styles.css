@@ -1,0 +1,57 @@
+/* ตั้งค่าพื้นฐาน */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* กล่องแสดงสถิติ */
+.stats-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1100px;
+    margin: 3rem auto;
+    padding: 1rem;
+}
+
+.stat-box {
+    flex: 1;
+    margin: 0 10px;
+    padding: 2.5rem;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease-in-out;
+}
+
+.stat-box:hover {
+    transform: scale(1.05);
+}
+
+/* การตั้งค่าฟอนต์และสี */
+.stat-number {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #ff5733;
+    margin-bottom: 0.5rem;
+}
+
+.stat-label {
+    font-size: 1.1rem;
+    color: #444;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .stats-container {
+        flex-direction: column;
+    }
+
+    .stat-box {
+        margin: 1rem 0;
+    }
+}
