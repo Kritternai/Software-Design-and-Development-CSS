@@ -442,7 +442,7 @@ background-size: cover;
 </html>
 
 ```
-![lab3](Asset/Lab3.mov)
+![lab3](Asset/Lab3.gif)
 
 [](#การทดลองที่-4-การจัดการขนาดและระยะห่าง)
 ## การทดลองที่ 4: การจัดการขนาดและระยะห่าง
@@ -591,7 +591,7 @@ border: 1px solid black;
 </body>
 </html>
 ```
-![lab4](Asset/Lab4.mov)
+![lab4](Asset/Lab4.gif)
 
 
 [](#การทดลองที่-5-การจัดการข้อความและฟอนต์)
@@ -822,7 +822,7 @@ blockquote {
     }
 }
 ```
-![lab5](Asset/Lab5.mov)
+![lab5](Asset/Lab5.gif)
 
 [](#การทดลองที่-6-Layout-และการจัดวางอิลิเมนต์)
 ## การทดลองที่ 6: Layout และการจัดวางอิลิเมนต์
@@ -1147,7 +1147,7 @@ body {
     }
 }
 ```
-![lab6](Asset/Lab6.mov)
+![lab6](Asset/Lab6.gif)
 
 
 ### ตัวอย่างการใช้งาน: การสร้างเลย์เอาต์ Modern Dashboard
